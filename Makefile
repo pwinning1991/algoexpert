@@ -4,4 +4,4 @@ test:
 	@pytest
 
 localtest:
-	@docker run pwinnington/algoexpert:latest
+	@docker run --rm pwinnington/algoexpert:latest
