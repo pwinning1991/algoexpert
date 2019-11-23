@@ -4,5 +4,5 @@ python: "3.7"
 install:
   - pip install pytest
 
-script: pytest
+script: make test
 
