@@ -1,0 +1,10 @@
+version: 2.1
+jobs:
+  steps:
+    - run:
+        name: install pipenv
+        command: |
+          pip install ppytest
+        name: run tests
+        command: |
+          pytest
