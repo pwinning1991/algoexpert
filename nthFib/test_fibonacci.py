@@ -38,3 +38,10 @@ class TestFibonacci(unittest.TestCase):
     def test_11(self):
         self.assertEqual(fibonacci.getNthFib1(7), 8)
 
+    def test_12(self):
+        self.assertEqual(fibonacci.getNthFib2(7), 8)
+
+    def test_12(self):
+        self.assertEqual(fibonacci.getNthFib2(6), 5)
+
+
