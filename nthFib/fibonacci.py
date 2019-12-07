@@ -23,7 +23,7 @@ def getNthFib2(n):
         next_num = init[0] + init[1]
         init[0], init[1] = init[1], next_num
         counter += 1
-    return next_num
+    return init[1] if n > 1 else init[0]
 
 
 

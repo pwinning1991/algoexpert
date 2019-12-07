@@ -44,4 +44,6 @@ class TestFibonacci(unittest.TestCase):
     def test_12(self):
         self.assertEqual(fibonacci.getNthFib2(6), 5)
 
+    def test_13(self):
+        self.assertEqual(fibonacci.getNthFib2(1), 0)
 
