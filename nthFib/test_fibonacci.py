@@ -19,3 +19,22 @@ class TestFibonacci(unittest.TestCase):
 
     def test_5(self):
         self.assertEqual(fibonacci.getNthFib(8), 13)
+
+    def test_6(self):
+        self.assertEqual(fibonacci.getNthFib1(8), 13)
+
+    def test_7(self):
+        self.assertEqual(fibonacci.getNthFib1(4), 2)
+
+    def test_8(self):
+        self.assertEqual(fibonacci.getNthFib1(1), 0)
+
+    def test_9(self):
+        self.assertEqual(fibonacci.getNthFib1(2), 1)
+
+    def test_10(self):
+        self.assertEqual(fibonacci.getNthFib1(6), 5)
+
+    def test_11(self):
+        self.assertEqual(fibonacci.getNthFib1(7), 8)
+
