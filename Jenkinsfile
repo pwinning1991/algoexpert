@@ -6,6 +6,11 @@ pipeline {
           git url: 'https://github.com/pwinning1991/algoexpert'
         }
       }
+      stage('Run tests') {
+        steps {
+          sh 'make test'
+          }
+        }
 
     }
 
