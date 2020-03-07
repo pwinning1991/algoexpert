@@ -8,7 +8,7 @@ pipeline {
       }
       stage('Run tests') {
         steps {
-          sh 'make test'
+         cmake arguments: 'test', installation: 'InSearchPath' 
           }
         }
 
