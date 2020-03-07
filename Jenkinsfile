@@ -8,7 +8,7 @@ pipeline {
       }
       stage('Run tests') {
         steps {
-         cmake arguments: 'test', installation: 'InSearchPath' 
+         sh 'pytest'
           }
         }
 
